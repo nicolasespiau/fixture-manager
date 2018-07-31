@@ -1,0 +1,32 @@
+{
+  "name": "@bonjourjohn/fixture-manager",
+  "version": "1.0.0",
+  "description": "Simple class allowing to manage fixture easily",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasespiau/fixture-manager.git"
+  },
+  "keywords": [
+    "fixtures",
+    "mongodb",
+    "tests"
+  ],
+  "author": "ESPIAU Nicolas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasespiau/fixture-manager/issues"
+  },
+  "homepage": "https://github.com/nicolasespiau/fixture-manager#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "mongodb": "^3.1.1",
+    "unit.js": "^2.0.0"
+  }
+}
