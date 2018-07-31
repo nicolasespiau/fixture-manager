@@ -5,7 +5,7 @@ const should = require('should');
 
 const mongoClient = require('./libs/mongoClient');
 
-const fixtureLoaderClass = require('../fixtureLoader');
+const fixtureLoaderClass = require('../index');
 let fixtureLoader;
 let backupCol;
 let collection;

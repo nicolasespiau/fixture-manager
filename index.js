@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = class FixtureLoader {
+module.exports = class Index {
   constructor(db) {
     this.db = db;
   }
